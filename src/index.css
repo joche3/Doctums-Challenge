@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* DigitalDisco Regular */
+@font-face {
+    font-family: 'DigitalDisco';
+    src: url('./src/assets/fonts/DigitalDisco.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* DigitalDisco Thin */
+  @font-face {
+    font-family: 'DigitalDisco-Thin';
+    src: url('./src/assets/fonts/DigitalDisco-Thin.ttf') format('truetype');
+    font-weight: 100; /* Puedes ajustar el peso según el estilo */
+    font-style: normal;
+  }
+  
+  /* Runescape */
+  @font-face {
+    font-family: 'Runescape';
+    src: url('./src/assets/fonts/runescape_uf.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
