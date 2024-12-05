@@ -7,7 +7,8 @@ export default {
         fontFamily: {
           digital: ['DigitalDisco', 'sans-serif'], // Establece la fuente DigitalDisco
           digitalThin: ['DigitalDisco-Thin', 'sans-serif'], // Establece la fuente DigitalDisco-Thin
-          runescape: ['Runescape', 'sans-serif'], // Establece la fuente Runescape
+          pixelmixNormal: ['PixelMix', 'sans-serif'], // Establece la fuente Runescape
+          pixelmixBold: ['PixelMixBold', 'sans-serif'], // Establece la fuente Runescape
         },
         colors: {
           customPrimary: {

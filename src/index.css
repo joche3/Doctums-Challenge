@@ -10,6 +10,22 @@
     font-style: normal;
   }
   
+    /* PixelMix Normal */
+    @font-face {
+      font-family: 'PixelMix';
+      src: url('/src/assets/fonts/pixelmix.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+  
+    /* PixelMix Bold */
+    @font-face {
+      font-family: 'PixelMixBold';
+      src: url('/src/assets/fonts/pixelmix_bold.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
   /* DigitalDisco Thin */
   @font-face {
     font-family: 'DigitalDisco-Thin';
@@ -18,10 +34,10 @@
     font-style: normal;
   }
   
-  /* Runescape */
-  @font-face {
-    font-family: 'Runescape';
-    src: url('./src/assets/fonts/runescape_uf.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
+/* Aplica a todo el contenedor del modal */
+.modal-scrollable {
+  overflow-y: auto; /* Habilita el scroll vertical */
+  scrollbar-width: thin; /* Para Firefox */
+  scrollbar-color: #4B4B4B #202020 /* Color del thumb y el track para Firefox */
+}
+

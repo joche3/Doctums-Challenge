@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="600" viewBox="0 0 1400 600">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #dea100;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #ffd76f;
+      }
+    </style>
+  </defs>
+  <path id="colorBottom" class="cls-1" d="M80,279H1320V480h-40v40H120V480H80V279Z"/>
+  <path id="colorTop" class="cls-2" d="M120,80H1280v40h40V281H80V120h40V80Z"/>
+  <path id="square" class="cls-3" d="M80,480h40v40H80V480Z"/>
+  <path id="square-2" data-name="square" class="cls-3" d="M80,80h40v40H80V80Z"/>
+  <path id="square-3" data-name="square" class="cls-3" d="M1280,480h40v40h-40V480Z"/>
+  <path id="square-4" data-name="square" class="cls-3" d="M1280,80h40v40h-40V80Z"/>
+  <path id="lineRight" class="cls-3" d="M1320,120h40V480h-40V120Z"/>
+  <path id="lineBottom" class="cls-3" d="M120,520H1280v40H120V520Z"/>
+  <path id="lineTop" class="cls-3" d="M120,40H1280V80H120V40Z"/>
+  <path id="lineLeft" class="cls-3" d="M40,120H80V480H40V120Z"/>
+</svg>
