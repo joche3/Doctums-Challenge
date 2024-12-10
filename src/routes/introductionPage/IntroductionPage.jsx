@@ -1,4 +1,4 @@
-import React from 'react'
+
 import PageContainer from '../../components/PageContainer'
 import Navbar from '../../components/NavBar'
 import { useNavigate } from "react-router-dom"; // Importamos el hook useNavigate

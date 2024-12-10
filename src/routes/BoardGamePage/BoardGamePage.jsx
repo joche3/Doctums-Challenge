@@ -1,4 +1,4 @@
-import React from 'react'
+
 import NavbarData from '../../components/NavBarData'
 import PageContainerGame from '../../components/PageContainerGame'
 import Casillero from '../../components/casilleros/Casillero'
@@ -39,9 +39,10 @@ const BoardGamePage = () => {
     const [diceNumber, setDiceNumber] = useState(1); // Empezamos con el dado en el 1 
     const [piecePosition, setPiecePosition] = useState(1);  // Inicia en la casilla 1
 
-    const handleClick = () => {
-        navigate("/Eficiencias"); // Navega a la página de destino
-    };
+   // const handleClick = () => {
+   //     navigate("/Eficiencias"); // Navega a la página de destino
+    //};
+    
 
 
     const handleDiceRoll = () => {
@@ -77,6 +78,7 @@ const BoardGamePage = () => {
     console.log(diceNumber)
 
     return (
+        
         <div className="relative bg-customSecondary-700 min-h-screen">
             {/* Imagen de fondo */}
             <div
