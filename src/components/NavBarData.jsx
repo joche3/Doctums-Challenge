@@ -10,20 +10,20 @@ const NavbarData = () => {
 
   // Obtener datos del jugador al cargar el componente
   useEffect(() => {
-    const fetchPlayerData = async () => {
+    const interval = setInterval(async () => {
       try {
-        const response = await axios.get('http://127.0.0.1:8000/player'); // Llamada a la API
-        const { name, money } = response.data; // Extraemos name y money del response
-        setPlayerName(name); // Actualizamos el estado con el nombre del jugador
-        setMoney(money); // Actualizamos el estado con el dinero del jugador
+        const response = await axios.get('http://127.0.0.1:8000/player');
+        setMoney(response.data.money);
+        setPlayerName(response.data.name);
       } catch (error) {
         console.error('Error al obtener los datos del jugador:', error);
       }
-    };
+    }, 1500); // Cada 1.5 segundos
+  
+    return () => clearInterval(interval); // Limpiar el intervalo al desmontar
+  }, []);
 
-    fetchPlayerData(); // Llamar a la función para obtener los datos
-  }, []); // El arreglo vacío asegura que solo se ejecute una vez al cargar el componente
-
+  
   return (
     <nav className="bg-customSecondary-900 text-white p-4 rounded-lg flex items-center justify-between  max-w-screen-xl mx-auto ">
       {/* Opciones de navegación a la izquierda */}

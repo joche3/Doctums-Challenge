@@ -4,7 +4,7 @@ import Navbar from '../../components/NavBar'
 import ButtonCircle from '../../components/buttonCircle'
 import ButtonCircleBlack from '../../components/ButtonCircleBlack';
 import TextBox from '../../components/TexBox';
-import { useNavigate } from "react-router-dom"; // Importa useNavigate
+import { useLocation, useNavigate } from "react-router-dom"; // Importa useNavigate
 
 const iconos = [
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="-0.5 -0.5 24 24" id="Interface-Essential-Calendar-Date--Streamline-Pixel" height={70} width={70} ><desc>{"Interface Essential Calendar Date Streamline Icon: https://streamlinehq.com"}</desc><title>{"interface-essential-calendar-date"}</title><g><path d="m1.6459375 6.569375000000001 19.708125000000003 0 0 15.338125 1.0996875 0 0 -18.6228125 -1.0996875 0 0 -1.0925 -3.2846875000000004 0 0 2.1921874999999997 -1.0925 0 0 -2.1921874999999997 -10.95375 0 0 2.1921874999999997 -1.0925 0 0 -2.1921874999999997 -3.2846875000000004 0 0 1.0925 -1.0996875 0 0 18.6228125 1.0996875 0 0 -15.338125z" fill="#000000" strokeWidth={1} /><path d="M1.6459375 21.9075h19.708125000000003V23H1.6459375Z" fill="#000000" strokeWidth={1} /><path d="M16.976875 0h1.0925v2.1921874999999997h-1.0925Z" fill="#000000" strokeWidth={1} /><path d="m12.5925 10.95375 0 4.3771875 3.2846875000000004 0 0 2.1921874999999997 -3.2846875000000004 0 0 1.0925 4.3843749999999995 0 0 -4.3771875 -3.2846875000000004 0 0 -2.1921874999999997 3.2846875000000004 0 0 -1.0925 -4.3843749999999995 0z" fill="#000000" strokeWidth={1} /><path d="m9.307812499999999 10.95375 -1.0925 0 0 1.0925 -2.1921874999999997 0 0 1.0996875 2.1921874999999997 0 0 4.3771875 -2.1921874999999997 0 0 1.0925 5.476875 0 0 -1.0925 -2.1921874999999997 0 0 -6.569375000000001z" fill="#000000" strokeWidth={1} /><path d="M4.930625 0h1.0925v2.1921874999999997H4.930625Z" fill="#000000" strokeWidth={1} /></g></svg>,
@@ -26,10 +26,11 @@ const buttonNames = [
 const MainPage = () => {
 
   const navigate = useNavigate(); // Inicializa el hook useNavigate
+  const location = useLocation(); // Obtiene la ubicación actual
 
   // Definimos las rutas específicas para cada botón
-  const handleButtonClick = (route) => {
-    navigate(route); // Navega a la ruta especificada
+  const handleButtonClick = (route, state) => {
+    navigate(route, { state }); // Navega a la ruta especificada con el estado
   };
 
   return (
@@ -88,17 +89,17 @@ const MainPage = () => {
                 onClick={() => {
                   // Aquí puedes poner las rutas específicas que desees
                   if (index === 0) {
-                    handleButtonClick("/eventsInfo"); // Ruta para el primer botón
+                    handleButtonClick("/eventsInfo", { background: location }); // Ruta para el primer botón
                   } else if (index === 1) {
-                    handleButtonClick("/efficienciesInfo"); // Ruta para el segundo botón
+                    handleButtonClick("/efficienciesInfo", { background: location }); // Ruta para el segundo botón
                   } else if (index === 2) {
-                    handleButtonClick("/productsInfo"); // Ruta para el tercer botón
+                    handleButtonClick("/productsInfo", { background: location }); // Ruta para el tercer botón
                   } else if (index === 3) {
-                    handleButtonClick("/projectsInfo"); // Ruta para el cuarto botón
+                    handleButtonClick("/projectsInfo", { background: location }); // Ruta para el cuarto botón
                   } else if (index === 4) {
-                    handleButtonClick("/resourcesInfo"); // Ruta para el quinto botón
+                    handleButtonClick("/resourcesInfo", { background: location }); // Ruta para el quinto botón
                   } else if (index === 5) {
-                    handleButtonClick("/firstActions"); // Ruta para el quinto botón
+                    handleButtonClick("/firstActions"); // Ruta para el sexto botón
                   }
                 }}
               />

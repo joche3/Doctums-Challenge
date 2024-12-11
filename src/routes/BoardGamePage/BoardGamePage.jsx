@@ -13,6 +13,11 @@ const iconos = [
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="-0.5 -0.5 24 24" id="Entertainment-Events-Hobbies-Board-Game-Dice--Streamline-Pixel" height={24} width={24} ><desc>{"Entertainment Events Hobbies Board Game Dice Streamline Icon: https://streamlinehq.com"}</desc><title>{"entertainment-events-hobbies-board-game-dice"}</title><g><path d="M12.59609375 22.45375v-1.0925h2.185v-1.0996875h2.1921874999999997v-1.0925h2.1921874999999997v-1.0996875h1.0925v-1.0925h1.0996875V6.023125h-1.0996875V4.930625h-1.0925v1.0925h-2.1921874999999997v1.0996875h-2.1921874999999997v1.0925h-2.185v1.0925h-2.1921874999999997v1.0996875H11.5v10.95375h-1.0925v1.0925Zm4.3771875 -13.145937499999999h2.1921874999999997v1.0996875h-2.1921874999999997Zm-3.2846875000000004 6.5765625000000005H15.884375v2.185h-2.1921874999999997Z" fill="#000000" strokeWidth={1} /><path d="M16.97328125 3.838125h2.1921874999999997v1.0925h-2.1921874999999997Z" fill="#000000" strokeWidth={1} /><path d="M14.78109375 2.7384375h2.1921874999999997v1.0996875h-2.1921874999999997Z" fill="#000000" strokeWidth={1} /><path d="M12.59609375 1.6459375h2.185v1.0925h-2.185Z" fill="#000000" strokeWidth={1} /><path d="M10.40390625 4.930625h2.1921874999999997v2.1921874999999997h-2.1921874999999997Z" fill="#000000" strokeWidth={1} /><path d="M10.40390625 0.54625h2.1921874999999997v1.0996875h-2.1921874999999997Z" fill="#000000" strokeWidth={1} /><path d="M8.211718750000001 20.2615625h2.1921874999999997v1.0996875h-2.1921874999999997Z" fill="#000000" strokeWidth={1} /><path d="M8.211718750000001 8.2153125h2.1921874999999997v1.0925h-2.1921874999999997Z" fill="#000000" strokeWidth={1} /><path d="M8.211718750000001 1.6459375h2.1921874999999997v1.0925h-2.1921874999999997Z" fill="#000000" strokeWidth={1} /><path d="M8.211718750000001 15.884375h2.1921874999999997v2.185h-2.1921874999999997Z" fill="#000000" strokeWidth={1} /><path d="M8.211718750000001 11.5h2.1921874999999997v2.1921874999999997h-2.1921874999999997Z" fill="#000000" strokeWidth={1} /><path d="M6.01953125 19.169062500000003h2.1921874999999997v1.0925h-2.1921874999999997Z" fill="#000000" strokeWidth={1} /><path d="M6.01953125 7.1228125h2.1921874999999997v1.0925h-2.1921874999999997Z" fill="#000000" strokeWidth={1} /><path d="M6.01953125 2.7384375h2.1921874999999997v1.0996875h-2.1921874999999997Z" fill="#000000" strokeWidth={1} /><path d="M3.83453125 18.069375h2.185v1.0996875h-2.185Z" fill="#000000" strokeWidth={1} /><path d="M3.83453125 6.023125h2.185v1.0996875h-2.185Z" fill="#000000" strokeWidth={1} /><path d="M3.83453125 3.838125h2.185v1.0925h-2.185Z" fill="#000000" strokeWidth={1} /><path d="M3.83453125 13.692187500000001h2.185v2.1921874999999997h-2.185Z" fill="#000000" strokeWidth={1} /><path d="M3.83453125 9.307812499999999h2.185V11.5h-2.185Z" fill="#000000" strokeWidth={1} /><path d="M2.73484375 16.976875h1.0996875v1.0925h-1.0996875Z" fill="#000000" strokeWidth={1} /><path d="M2.73484375 4.930625h1.0996875v1.0925h-1.0996875Z" fill="#000000" strokeWidth={1} /><path d="M1.6423437500000002 6.023125h1.0925v10.95375h-1.0925Z" fill="#000000" strokeWidth={1} /></g></svg>
         ),
     },
+    {
+        label: "Mi Icono 2",
+        svgIcon: (
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="-0.5 -0.5 24 24" id="Interface-Essential-Signin-Login--Streamline-Pixel" height={24} width={24} ><desc>{"Interface Essential Signin Login Streamline Icon: https://streamlinehq.com"}</desc><title>{"interface-essential-signin-login"}</title><g><path d="m16.42703125 6.88778125 0 1.0925 -1.0996875 0 0 1.0996875 -1.0925 0 0 1.0925 -1.0925 0 0 2.1921874999999997 1.0925 0 0 1.0925 1.0925 0 0 1.0996875 1.0996875 0 0 1.0925 1.0925 0 0 -3.2846875000000004 4.3843749999999995 0 0 -2.1921874999999997 -4.3843749999999995 0 0 -3.2846875000000004 -1.0925 0z" fill="#000000" strokeWidth={1} /><path d="M15.327343749999999 17.84153125h1.0996875v2.1921874999999997h-1.0996875Z" fill="#000000" strokeWidth={1} /><path d="M15.327343749999999 1.41090625h1.0996875v3.2846875000000004h-1.0996875Z" fill="#000000" strokeWidth={1} /><path d="m10.95015625 22.21871875 0 -1.0925 4.3771875 0 0 -1.0925 -4.3771875 0 0 -14.2384375 -1.0925 0 0 16.423437500000002 1.0925 0z" fill="#000000" strokeWidth={1} /><path d="M6.56578125 22.21871875h3.291875v1.0996875h-3.291875Z" fill="#000000" strokeWidth={1} /><path d="M7.66546875 12.36465625h1.0925v2.1921874999999997h-1.0925Z" fill="#000000" strokeWidth={1} /><path d="M7.66546875 4.6955937500000005h2.1921874999999997v1.0996875h-2.1921874999999997Z" fill="#000000" strokeWidth={1} /><path d="M4.38078125 21.12621875h2.185v1.0925h-2.185Z" fill="#000000" strokeWidth={1} /><path d="M5.47328125 3.6030937499999998h2.1921874999999997v1.0925h-2.1921874999999997Z" fill="#000000" strokeWidth={1} /><path d="M2.18859375 20.033718750000002h2.1921874999999997v1.0925h-2.1921874999999997Z" fill="#000000" strokeWidth={1} /><path d="M3.28109375 2.51059375h2.1921874999999997v1.0925h-2.1921874999999997Z" fill="#000000" strokeWidth={1} /><path d="m2.18859375 0.31840625 0 1.0925 -1.0925 0 0 18.6228125 1.0925 0 0 -17.523125 1.0925 0 0 -1.0996875 12.04625 0 0 -1.0925 -13.138750000000002 0z" fill="#000000" strokeWidth={1} /></g></svg>),
+    },
 ]
 
 const rows = {
@@ -35,47 +40,75 @@ const BoardGamePage = () => {
     const navigate = useNavigate(); // Inicializamos el hook para la navegación
     const location = useLocation();
 
-    // Estado para el número del dado y si ya se ha girado
     const [diceNumber, setDiceNumber] = useState(1); // Empezamos con el dado en el 1 
     const [piecePosition, setPiecePosition] = useState(1);  // Inicia en la casilla 1
-
-    const handleClick = () => {
-        navigate("/Eficiencias"); // Navega a la página de destino
-    };
-
+    const [rollCount, setRollCount] = useState(0);
+    const [isInNullTile, setIsInNullTile] = useState(false); // Nuevo estado para manejar casilleros null
 
     const handleDiceRoll = () => {
-        const randomNumber = Math.floor(Math.random() * 6) + 1; // Número aleatorio entre 1 y 6
-        setDiceNumber(randomNumber); // Actualiza el estado con el número generado
+        const randomNumber = Math.floor(Math.random() * 6) + 1;
+        setDiceNumber(randomNumber);
+        
+        setPiecePosition((prevPosition) => {
+            let newPosition = prevPosition + randomNumber;
+    
+            const totalCasillas = Object.values(rows).flat();
+            const totalCasillasLength = totalCasillas.length;
 
-        setPiecePosition(prevPosition => {
-            const newPosition = prevPosition + randomNumber;
-
-            // Obtener el número total de casillas en todas las filas
-            const totalCasillas = Object.values(rows).map(fila => fila.length); // Array con la cantidad de casillas por fila
-
-            let accumulatedPosition = 0;
-
-            // Iteramos a través de las filas
-            for (let i = 0; i < totalCasillas.length; i++) {
-                accumulatedPosition += totalCasillas[i]; // Sumar las casillas de cada fila
-
-                // Si la nueva posición cae dentro de la fila actual
-                if (newPosition <= accumulatedPosition) {
-                    // La posición en esta fila es el valor restante después de restar las casillas anteriores
-                    const positionInCurrentFila = newPosition - (accumulatedPosition - totalCasillas[i]);
-
-                    return accumulatedPosition - totalCasillas[i] + positionInCurrentFila;
-                }
+            // Si la nueva posición supera el número total de casillas, limitamos la posición a la última casilla
+            if (newPosition >= totalCasillasLength) {
+                newPosition = totalCasillasLength - 1; // Se queda en la última casilla
             }
 
-            // Si la posición excede todas las filas, nos aseguramos de que la ficha se quede en la última casilla
-            return accumulatedPosition;
+            const nextTile = totalCasillas[newPosition];
+    
+            // Imprimir en consola el índice y valor de la casilla actual
+            console.log(`Ficha en casilla índice: ${newPosition}, valor: ${nextTile}`);
+    
+            // Manejar casilleros null
+            if (nextTile === null) {
+                setIsInNullTile(true); // Activar modo "casillero null"
+            } else {
+                setIsInNullTile(false); // Desactivar modo "casillero null"
+            }
+    
+            return newPosition;
         });
+    
+        if (!isInNullTile) {
+            // Solo contar la tirada si no estamos en un casillero null
+            setRollCount((prevCount) => prevCount + 1);
+        }
+
+        // Verificamos si hemos realizado 5 tiradas y la ficha no está en un casillero null
+        if (rollCount + 1 === 5 && !isInNullTile) {
+            setRollCount(0); // Reseteamos el conteo
+    
+            const totalCasillas = Object.values(rows).flat();
+            const currentCasilla = totalCasillas[piecePosition];
+    
+            // Si llegamos al casillero "META" (índice 360)
+            if (currentCasilla === "META") {
+                navigate("/endGame", { state: { background: location } }); // Navegar a la página /endGame
+            } else {
+                // Navegación según el valor de la casilla
+                if (currentCasilla === 1) {
+                    navigate("/events", { state: { eventIndex: 0, background: location } });
+                } else if (currentCasilla === 2) {
+                    navigate("/events", { state: { eventIndex: 1, background: location } });
+                } else if (currentCasilla === 3) {
+                    navigate("/events", { state: { eventIndex: 2, background: location } });
+                } else if (currentCasilla === 4) {
+                    navigate("/events", { state: { eventIndex: 3, background: location } });
+                } else if (currentCasilla === 5) {
+                    navigate("/events", { state: { eventIndex: 4, background: location } });
+                } else if (currentCasilla === 6) {
+                    navigate("/events", { state: { eventIndex: 5, background: location } });
+                }
+            }
+        }
     };
-
-    console.log(diceNumber)
-
+    
     return (
         <div className="relative bg-customSecondary-700 min-h-screen">
             {/* Imagen de fondo */}
@@ -541,7 +574,7 @@ const BoardGamePage = () => {
                             );
                         })}
                     </div>
-                    
+
 
                     {/* BOTONES Y DADO */}
 
@@ -549,10 +582,28 @@ const BoardGamePage = () => {
 
                         <div
                             className={`relative flex items-center justify-center w-[150px] cursor-pointer`}
-                            onClick={handleDiceRoll}
+                            onClick={() => navigate("/productsModal", { state: { background: location } })}
                         >
                             <h1 className="absolute text-black text-lg text-center font-digital flex flex-row gap-2">
-                                Girar Dado <span>{iconos[0].svgIcon}</span>
+                                Productos
+                            </h1>
+                            <Button className="w-full h-full" />
+                        </div>
+
+
+                        <div
+                            className={`relative flex items-center justify-center w-[150px] cursor-pointer`}
+                            onClick={() => navigate("/resourcesModal", { state: { background: location } })}
+                        >
+                            <h1 className="absolute text-black text-lg text-center font-digital flex flex-row gap-2">
+                                Recursos
+                            </h1>
+                            <Button className="w-full h-full" />
+                        </div>
+
+                        <div className={`relative flex items-center justify-center w-[150px] cursor-pointer`} onClick={handleDiceRoll}>
+                            <h1 className="absolute text-black text-lg text-center font-digital flex flex-row gap-2">
+                                Girar Dado
                             </h1>
                             <Button className="w-full h-full" />
                         </div>
@@ -576,6 +627,39 @@ const BoardGamePage = () => {
                             <Button className="w-full h-full" />
                         </div>
 
+                        <div
+                            className={`relative flex items-center justify-center w-[150px] cursor-pointer`}
+                            onClick={() => navigate("/projectsModal", { state: { background: location } })}
+                        >
+                            <h1 className="absolute text-black text-lg text-center font-digital flex flex-row gap-2">
+                                Proyectos
+                            </h1>
+                            <Button className="w-full h-full" />
+                        </div>
+
+                        <div
+                            className={`relative flex items-center justify-center w-[150px] cursor-pointer`}
+                            onClick={() => navigate("/MainPage")}
+                        >
+                            <h1 className="absolute text-black text-lg text-center font-digital flex flex-row gap-2">
+                                Salir<span>{iconos[1].svgIcon}</span>
+                            </h1>
+                            <Button className="w-full h-full" colorTop="#fd5050" colorBottom="#fc3434" />
+                        </div>
+
+                    </div>
+
+                    <div className='flex justify-center items-center mt-10' >
+                        <div
+                            className={`relative flex items-center justify-center w-[150px] cursor-pointer`}
+                            onClick={() => navigate("/events", { state: { eventIndex: 0, background: location } })}
+                        >
+                            <h1 className="absolute text-black text-lg text-center font-digital flex flex-row gap-2">
+                                Eventos
+                            </h1>
+                            <Button className="w-full h-full" />
+                        </div>
+
                     </div>
 
 
@@ -586,4 +670,3 @@ const BoardGamePage = () => {
 }
 
 export default BoardGamePage
-
