@@ -649,19 +649,6 @@ const BoardGamePage = () => {
 
                     </div>
 
-                    <div className='flex justify-center items-center mt-10' >
-                        <div
-                            className={`relative flex items-center justify-center w-[150px] cursor-pointer`}
-                            onClick={() => navigate("/events", { state: { eventIndex: 0, background: location } })}
-                        >
-                            <h1 className="absolute text-black text-lg text-center font-digital flex flex-row gap-2">
-                                Eventos
-                            </h1>
-                            <Button className="w-full h-full" />
-                        </div>
-
-                    </div>
-
 
                 </PageContainerGame>
             </div>
